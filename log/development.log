@@ -808,3 +808,12 @@ Processing by PostsController#show as HTML
   Parameters: {"id"=>"5"}
   [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 5]]
   Rendered posts/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 42ms (Views: 29.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/5/edit" for 24.94.17.227 at 2019-01-09 05:46:36 +0000
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered posts/edit.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.1ms)
