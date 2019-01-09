@@ -763,3 +763,15 @@ Processing by PostsController#edit as HTML
 Completed 200 OK in 347ms (Views: 318.0ms | ActiveRecord: 0.4ms)
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 24.94.17.227 at 2019-01-09 05:45:47 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.11/lib/rails/templates/rails/welcome/index.html.erb (4.5ms)
+Completed 200 OK in 43ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 24.94.17.227 at 2019-01-09 05:45:57 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.1ms)
